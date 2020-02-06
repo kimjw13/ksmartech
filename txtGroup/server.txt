@@ -1,0 +1,18 @@
+server
+
+***서버는 정적 자원을 처리하는 ws(ex. Apache), 동적 자원을 처리하는 was(ex. Tomcat)이 있다.
+***was 서버란? 분산환경에서 사용되는 미들웨어(웹서버 + 웹 컨테이너) 웹상에서 사용하는 컴포넌트를 올려놓고
+사용하게 되는 서버 (톰캣은 EJB컨테이너의 기능이 없기 때문에 was가 아니라고 하는 사람도 있음)
+***웹 컨테이너란? JSP와 Servlet을 실행시킬 수 있는 sw를 웹 컨테이너라고 한다.
+
+*JSP? 
+HTML 코드 안에 JAVA 코드 (view에 좋다)
+
+*Servlet? 
+java코드 안에 html 코드(하나의 클래스, 컨트롤러에 좋다), DB와 통신 유리, http request 처리
+그렇지만, 개발자가 직접 작성해야 함, web.xml설정에서 어떤 URL과 매핑되어 있는지 확인 후 적절한 servlet 실행
+[컨트롤러란? 다른 자바 클래스에 데이터를 넘겨주는 부분]
+
+//참고 : https://gmlwjd9405.github.io/2018/11/04/servlet-vs-jsp.html
+
+tomcat(version 8.5) : apache에서 제공하는 오픈소스 was 서버
