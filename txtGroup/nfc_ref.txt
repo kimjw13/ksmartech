@@ -1,0 +1,7 @@
+참고하면 좋은사이트
+
+다양한 NFC TYPE 설명, 예제
+https://www.oreilly.com/library/view/beginning-nfc/9781449324094/ch04.html
+
+구현
+https://github.com/chariotsolutions/phonegap-nfc
