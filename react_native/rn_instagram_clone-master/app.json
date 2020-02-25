@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "insteemgram",
+    "slug": "insteemgram",
+    "description": "This is a sample app for Instagram clone coding. Let's make Steamit SNS look like Instagram. See the source: https://github.com/anpigon/rn_instagram_clone",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anpigon.insteemgram"
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.anpigon.insteemgram"
+    }
+  }
+}
